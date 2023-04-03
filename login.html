@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  
+  
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/Favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
+    
+        <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+        <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+        <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles/login.css">
+
+  
+</head>
+
+<body>
+
+<!-- Menu -->
+
+<div class="menu">
+	<div class="menu_container text-right">
+		<div class="menu_close">close</div>
+		<nav class="menu_nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="About.html">About us</a></li>
+				<li><a href="explore.html">explore</a></li>
+				<li><a href="blog.html">News</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu_link">
+			<a href="elements.html">+Add Listing</a>
+		</div>
+	</div>
+</div>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_overlay"></div>
+		<div class="header_content d-flex flex-row align-items-center justify-content-start">
+			
+			<!-- Logo -->
+			<div class="logo"><a href="index.html">Iskenderiya<span>Leh</span><span>+</span></a></div>
+
+			<!-- Header Nav -->
+			<div class="header_right d-flex flex-row align-items-center justify-content-start ml-auto">
+				<nav class="main_nav">
+					<ul class="d-flex flex-row align-items-center justify-content-start">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="About.html">About us</a></li>
+						<li><a href="explore.html">Explore</a></li>
+						<li><a href="blog.html">News</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="add_listing text-center trans_200"><a href="elements.html">+Add Listing</a></div>
+				<div class="log_reg">
+				</div>
+				<div class="hamburger">
+					<i class="fa fa-bars trans_200"></i>
+				</div>
+			</div>
+
+		</div>
+	</header>
+  <div class="login-wrap" style="background-image: url(images/login-ph.jpg)">
+	<form class="login-html" method="post">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="email" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign In">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot" style="color: #ffb400">Forgot Password?</a>
+				</div>
+			</div>
+			<div class="sign-up-htm">
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Repeat Password</label>
+					<input id="pass" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<label for="pass" class="label">Email Address</label>
+					<input id="pass" type="email" class="input">
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<label for="tab-1"><a style="color: #ffb400; cursor: pointer">Already Member?</a>
+                        </div>
+			</div>
+		</div>
+	</div>
+</form>
+    </div>
+<!-- Footer -->
+
+		<footer class="footer container_custom">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_container d-flex flex-md-row flex-column align-items-center justify-content-md-start justify-content-center">
+							<div class="copyright order-md-1 order-2">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+</div>
+							<nav class="footer_nav ml-md-auto order-md-2 order-1">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="About.html">About</a></li>
+									<li><a href="explore.html">explore</a></li>
+									<li><a href="blog.html">News</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+    
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
